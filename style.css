@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/637140.jpg);
+    height: 95vh;
+    width: 95;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    border: 5px solid rgb(89, 160, 116);
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 0;
+    background-color:rgba(252, 255, 67, 0.842);
+    padding: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+.text-1{
+    justify-items: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: 16px;
+}
+.titulo-game{
+    text-align: center;
+    font-size: 50px;
+    justify-items: center;    
+    
+}
+.line-canvas-score{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+    font-family: monospace;
+
+}
+.title-score{
+    font-size: 16px;
+    color: #f1f0ee;
+    font-family: monospace;
+    font-weight: bold;
+    width: 512px;
+    text-align: center;
+}
